@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first calculator</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./app.js"></script>
+    </head>
+
+    <body>
+        <h1>My first calculator</h1>
+
+        <main>
+            
+            <p>Let's make a calculator together :)</p>
+
+            <button id="first" onClick={startCalculator()}>START CALCULATOR</button>
+            
+            <div>
+                <!--the following 4 buttons need to appear in one line only-->
+                <button class="buttons" onClick={addNumber()}>Add</button>
+                <button class="buttons" onClick={subtractNumber()}>Substract</button>
+                <button class="buttons" onClick={multiplyNumber()}>Multiply</button>
+                <button class="buttons" onClick={divideNumber()}>Divide</button>
+            </div>
+            
+            <button id="last" onClick={clearCalculator()}>CLEAR CALCULATOR</button>
+        </main>
+
+        <footer>
+            <p>© Made by Diamar Ferrer for CFG - 2022</p>
+        </footer>
+    </body>
+  
+</html>
